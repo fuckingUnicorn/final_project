@@ -14,7 +14,7 @@ func Run() error {
 	webDir := "web" // Директория с фронтендом
 
 	// Порт по умолчанию
-	port := "3988"
+	port := "7540"
 	// Если задана переменная окружения TODO_PORT — используем её значение
 	envPort := os.Getenv("TODO_PORT")
 	if envPort != "" {
