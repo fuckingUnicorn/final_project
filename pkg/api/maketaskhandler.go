@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/JKasus/go_final_project/pkg/db"
-	"github.com/JKasus/go_final_project/pkg/entities"
-	"github.com/JKasus/go_final_project/pkg/internal"
+	"github.com/fuckingUnicorn/final_project/pkg/db"
+	"github.com/fuckingUnicorn/final_project/pkg/entities"
+	"github.com/fuckingUnicorn/final_project/pkg/internal"
 )
 
 func CompleteTaskHandler(w http.ResponseWriter, r *http.Request) {
